@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "graphql-yoga": "npm:graphql-yoga@^4.0.3",
+    "server": "https://deno.land/std@0.193.0/http/server.ts",
+    "garph": "npm:garph@^0.5.7",
+    "mongodb": "https://deno.land/x/mongo@v0.31.2/mod.ts"
+  }
+}
